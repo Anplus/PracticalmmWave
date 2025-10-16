@@ -61,22 +61,26 @@ The `.cfg` file is a script sent over the **CLI UART** to configure both radar h
 ---
 
 ## 📊 Performance Relations
-- **Range resolution (ΔR)**  
+- **Range resolution (ΔR)**
+  
   \[
   \Delta R = \frac{c}{2 \cdot BW}, \quad BW = \text{freqSlopeConst} \times \text{rampEndTime}
   \]
 
-- **Max unambiguous range**  
+- **Max unambiguous range**
+
   \[
   R_{\max} = \frac{c}{2 f_s} \cdot N
   \]
 
-- **Velocity resolution**  
+- **Velocity resolution**
+  
   \[
   \Delta v = \frac{\lambda}{2 \cdot T_\text{frame} \cdot N_\text{loops}}
   \]
 
-- **Max unambiguous velocity**  
+- **Max unambiguous velocity**
+  
   Depends on chirp repetition frequency (PRF).  
 
 ---
