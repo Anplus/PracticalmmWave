@@ -1,0 +1,4 @@
+xWR1843
+x843 Out of Box Demo
+C:/Users/anzhe/Documents/PROJECT/PracticalmmWave/IWR1843/iwr1843_breath.cfg
+False
